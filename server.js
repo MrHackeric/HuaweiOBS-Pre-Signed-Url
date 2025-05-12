@@ -21,9 +21,9 @@ app.get('/', (req, res) => {
 
 // Signed URL endpoint
 app.get('/generate-url', (req, res) => {
-  const objectKey = `sensor_data_${Date.now()}.json`;
+  const objectKey = 'sensor_data.json';  // Use a fixed filename for consistency
   const bucketName = process.env.OBS_BUCKET_NAME;
-  const expiresIn = 3600;
+  const expiresIn = 3600;  // Signed URL expiration time (in seconds)
 
   console.log(`\n🔧 Request received to generate signed URL`);
   console.log(`📦 Bucket: ${bucketName}`);
