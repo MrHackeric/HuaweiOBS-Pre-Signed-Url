@@ -41,8 +41,8 @@ Or set these as **Environment Variables** in Render.com dashboard under your ser
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/huawei-obs-presign-api.git
-cd huawei-obs-presign-api
+git clone https://github.com/MrHackeric/HuaweiOBS-Pre-Signed-Url
+cd HuaweiOBS-Pre-Signed-Url
 npm install
 ```
 
